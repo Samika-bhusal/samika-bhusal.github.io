@@ -241,11 +241,11 @@ label:after{
 
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color:#2f5597;
 }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #2f5597;
 }
   
 input:checked + .slider:before {
@@ -280,4 +280,11 @@ transform: translateX(26px);
 }
 .accordion-header{
     color: #223952;
+}
+
+.accordion .accordion-header .accordion-item .headingTwo {
+	--bs-accordion-btn-color: ghostwhite;
+	--bs-accordion-btn-bg: pink;
+	--bs-accordion-active-color: maroon;
+	--bs-accordion-active-bg: lightpink;
 }
