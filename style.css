@@ -96,10 +96,23 @@ header nav:hover > a:not(:hover){
    
 }
 
+.dark-mode .About {
+    color: white;
+    background:#101723;
+}
+
 .About {
     padding:50px ;
-    background:#101723;
-    color: white;
+    
+    /* background:#101723; */
+
+    /* light mode colour */
+    background:#f5f6f8;
+
+
+    /* color: white; */
+    color: #223952;
+
     z-index: 100;
 }
 
@@ -282,13 +295,19 @@ transform: translateX(26px);
     background-color: #729fd377;
 }
 
+.dark-mode .contact-me h1 {
+    color: #90b9ff;
+}
 
 .contact-me h1{
     margin-bottom: 20px;
     letter-spacing: 3px;
     font-size: 50px;
     text-align: center;
-    color: #90b9ff;
+
+    /* color: #90b9ff; */
+    color: #223952;
+
     font-weight: bold;
 }
 
@@ -296,8 +315,17 @@ transform: translateX(26px);
     margin-bottom: 4em;
     line-height: 2em;
 }
+
+.dark-mode .contact-me label {
+        color: #90b9ff; 
+    }
+
 .contact-me label
-        {color: #90b9ff; 
+        {
+
+        /* color: #90b9ff;  */
+        color: #223952; 
+
         font-weight: bold; 
         letter-spacing: 1px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -332,12 +360,19 @@ transform: translateX(26px);
     text-decoration:none;
 }
 
+.dark-mode .my-resume h1 {
+    color: #90b9ff; 
+}
+
 .my-resume h1{
     margin-bottom: 20px;
     letter-spacing: 3px;
     font-size: 50px;
     text-align: center;
-    color: #90b9ff;
+
+    /* color: #90b9ff; */
+    color: #223952;
+
     font-weight: bold;
 }
 .accordion-header, .accordion-button, .accordion-body, .about-text, .about-paragraph, .hero_title, .hero_desc, .nav-link, .navbar-brand, .project-header, h3, .form-label{
@@ -349,12 +384,20 @@ transform: translateX(26px);
     z-index: 0;
 }
 
+.dark-mode .about-section h1 {
+    color: #90b9ff; 
+}
+
 .about-section h1{
     margin-bottom: 20px;
     letter-spacing: 3px;
     font-size: 50px;
     text-align: center;
-    color: #90b9ff;
+
+    /* color: #90b9ff; */
+    color: #223952;
+
     font-weight: bold;
 
 }
+
