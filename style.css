@@ -37,7 +37,6 @@ header nav{
 header nav a {
     text-decoration: none;
     font-size: 20px;
-    /*position: relative;*/
     color: #223952;
     font-weight: 600;
     padding: 8px 16px;
@@ -104,13 +103,13 @@ header nav:hover > a:not(:hover){
 .About {
     padding:50px ;
     
-    /* background:#101723; */
+   
 
-    /* light mode colour */
+  
     background:#f5f6f8;
 
 
-    /* color: white; */
+    
     color: #223952;
 
     z-index: 100;
@@ -136,7 +135,7 @@ header nav:hover > a:not(:hover){
     z-index: -1;
 }
 
-/* Style inputs, select elements and textareas */
+
 input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
@@ -146,13 +145,13 @@ input[type=text], select, textarea{
     resize: vertical;
 }
   
-  /* Style the label to display next to the inputs */
+
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
   
-  /* Style the submit button */
+ 
 input[type=submit] {
     background-color: #90b9ff;
     color: #022662;
@@ -164,21 +163,21 @@ input[type=submit] {
     font-weight: bold;
 }
   
-  /* Style the container */
+  
 .container {
     border-radius: 5px;
     background-color: #223952  #729fd3;
     padding: 20px;
 }
   
-  /* Floating column for labels: 25% width */
+  
 .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
 }
   
-  /* Floating column for inputs: 75% width */
+
 .col-75 {
     float: left;
     width: 75%;
@@ -186,14 +185,12 @@ input[type=submit] {
     color:#5c7fa6;
 }
   
-  /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
   
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
  .col-25, .col-75, input[type=submit] {
       width: 100%;
@@ -202,7 +199,7 @@ input[type=submit] {
 }
 
 
-/* The switch - the box around the slider */
+
 .switch {
     position: relative;
     display: inline-block;
@@ -210,14 +207,14 @@ input[type=submit] {
     height: 34px;
 }
   
-  /* Hide default HTML checkbox */
+ 
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
   
-  /* The slider */
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -305,7 +302,7 @@ transform: translateX(26px);
     font-size: 50px;
     text-align: center;
 
-    /* color: #90b9ff; */
+   
     color: #223952;
 
     font-weight: bold;
@@ -323,7 +320,7 @@ transform: translateX(26px);
 .contact-me label
         {
 
-        /* color: #90b9ff;  */
+       
         color: #223952; 
 
         font-weight: bold; 
@@ -370,7 +367,7 @@ transform: translateX(26px);
     font-size: 50px;
     text-align: center;
 
-    /* color: #90b9ff; */
+    
     color: #223952;
 
     font-weight: bold;
@@ -400,7 +397,7 @@ transform: translateX(26px);
     font-weight: bold;
 
 }
-/* Style all font awesome icons */
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -411,25 +408,25 @@ transform: translateX(26px);
     border-radius: 50%;
   }
   
-  /* Add a hover effect if you want */
+  
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
+
   
-  /* Facebook */
+
   .fa-github {
     background: #223952;
     color: white;
   }
   
-  /* Twitter */
+
   .fa-linkedin {
     background: #223952;
     color: white;
   }
-    /* Twitter */
+ 
     .fa-google {
         background: #223952;
         color: white;
